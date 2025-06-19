@@ -83,24 +83,6 @@ export const Testimonials = () => {
             </div>
           </motion.div>
         </AnimatePresence>
-
-        {/* Navigation Buttons */}
-        <div className="flex justify-between mt-6">
-          <button
-            onClick={prev}
-            className="bg-gray-200 text-gray-600 hover:text-red-500 transition p-2"
-            aria-label="Previous Testimonial"
-          >
-            <ChevronLeft className="w-6 h-6" />
-          </button>
-          <button
-            onClick={next}
-            className="bg-gray-200 text-gray-600 hover:text-red-500 transition p-2"
-            aria-label="Next Testimonial"
-          >
-            <ChevronRight className="w-6 h-6" />
-          </button>
-        </div>
       </div>
     </div>
   );

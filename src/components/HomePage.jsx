@@ -13,7 +13,7 @@ const HomePage = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <div className="font-sans text-gray-800 bg-gray-50 scroll-smooth">
+    <div className="font-sans text-gray-800 bg-gray-50">
       {/* --- Header --- */}
       <Header />
 
