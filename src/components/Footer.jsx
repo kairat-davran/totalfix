@@ -70,12 +70,33 @@ export const Footer = () => {
             <p className="mb-3 sm:mb-0">
               &copy; {new Date().getFullYear()} TotalFix Contractors LLC. All rights reserved.
             </p>
-            <div className="flex flex-col sm:flex-row items-center gap-4">
-              <h4 className="font-semibold mb-2 text-sm text-center sm:text-right">Follow Us</h4>
-              <div className="flex gap-4 text-lg justify-center sm:justify-end">
-                <a href="#" className="hover:text-red-400"><FaFacebookF /></a>
-                <a href="#" className="hover:text-red-400"><FaYoutube /></a>
-                <a href="#" className="hover:text-red-400"><FaLinkedinIn /></a>
+            <div className="flex items-center gap-4">
+              <h4 className="font-semibold text-sm whitespace-nowrap">Follow Us</h4>
+              <div className="flex gap-4 text-lg">
+                <a
+                  href="https://www.facebook.com/totalfixcontractors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-400"
+                >
+                  <FaFacebookF />
+                </a>
+                <a
+                  href="https://www.youtube.com/@totalfixcontractors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-400"
+                >
+                  <FaYoutube />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/totalfixcontractors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-400"
+                >
+                  <FaLinkedinIn />
+                </a>
               </div>
             </div>
           </div>

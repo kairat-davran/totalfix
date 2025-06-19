@@ -7,7 +7,7 @@ export const About = () => {
 
   return (
     <>
-      <h2 className="text-3xl font-bold mb-6">Why TotalFix?</h2>
+      <h2 className="text-3xl font-bold my-6">Why TotalFix?</h2>
       <p className="text-gray-700 text-lg leading-relaxed">
         At <strong>TotalFix Contractors LLC</strong>, we specialize in <span className="text-red-600">fence installation, wood fence repair and replacement, and foundation repair</span>. With over <strong>5 years of hands‑on experience</strong>, our team delivers unmatched service and lasting results.
         <br />

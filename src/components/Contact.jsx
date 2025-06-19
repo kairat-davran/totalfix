@@ -1,11 +1,7 @@
 import React from "react";
-import {
-  PhoneCall,
-  Mail,
-} from "lucide-react";
+import { PhoneCall, Mail } from "lucide-react";
 
 export const Contact = () => {
-
   return (
     <div className="grid md:grid-cols-2 gap-12 items-start">
       {/* Left: Info Block */}
@@ -36,10 +32,8 @@ export const Contact = () => {
 
       {/* Right: Contact Form */}
       <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          alert("Form submitted! (This is a placeholder)");
-        }}
+        action="https://formspree.io/f/mjkrevoy"
+        method="POST"
         className="bg-gray-50 p-6 rounded-lg shadow-lg space-y-5"
       >
         <div>
@@ -49,8 +43,10 @@ export const Contact = () => {
           <input
             type="text"
             id="name"
+            name="name"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-red-500 focus:border-red-500"
+            placeholder="John Doe"
+            className="w-full px-4 py-2 border border-gray-300 bg-gray-100 rounded-md focus:ring-red-500 focus:border-red-500"
           />
         </div>
 
@@ -61,8 +57,23 @@ export const Contact = () => {
           <input
             type="email"
             id="email"
+            name="email"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-red-500 focus:border-red-500"
+            placeholder="john@example.com"
+            className="w-full px-4 py-2 border border-gray-300 bg-gray-100 rounded-md focus:ring-red-500 focus:border-red-500"
+          />
+        </div>
+
+        <div>
+          <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+            Phone Number
+          </label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="(206) 555‑0123"
+            className="w-full px-4 py-2 border border-gray-300 bg-gray-100 rounded-md focus:ring-red-500 focus:border-red-500"
           />
         </div>
 
@@ -72,9 +83,11 @@ export const Contact = () => {
           </label>
           <textarea
             id="message"
+            name="message"
             rows="5"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-red-500 focus:border-red-500"
+            placeholder="Tell us how we can help you. Briefly describe your problem or question."
+            className="w-full px-4 py-2 border border-gray-300 bg-gray-100 rounded-md focus:ring-red-500 focus:border-red-500"
           />
         </div>
 
@@ -86,5 +99,5 @@ export const Contact = () => {
         </button>
       </form>
     </div>
-  )
-}
+  );
+};

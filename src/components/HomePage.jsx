@@ -23,27 +23,27 @@ const HomePage = () => {
       </section>
 
       {/* --- Services --- */}
-      <section id="services" className="py-20 px-4 max-w-7xl mx-auto">
+      <section id="services" className="scroll-mt-10 py-16 px-4 max-w-7xl mx-auto">
         <Services />
       </section>
 
       {/* --- Carousel Section --- */}
-      <section id="works" className="py-16 px-4 max-w-6xl mx-auto">
+      <section id="works" className="scroll-mt-10 py-16 px-4 max-w-6xl mx-auto">
         <Carousel />
       </section>
 
       {/* --- About --- */}
-      <section id="about" className="py-20 px-6 max-w-4xl mx-auto text-center">
+      <section id="about" className="scroll-mt-10 py-16 px-6 max-w-4xl mx-auto text-center">
         <About />
       </section>
 
       {/* --- Testimonials --- */}
-      <section id="testimonials">
+      <section id="testimonials" className="scroll-mt-10 py-16 px-6 max-w-4xl mx-auto">
         <Testimonials />
       </section>
 
       {/* --- Contact --- */}
-      <section id="contact" className="py-20 px-6 max-w-6xl mx-auto">
+      <section id="contact" className="scroll-mt-10 py-16 px-6 max-w-6xl mx-auto">
         <Contact />
       </section>
 

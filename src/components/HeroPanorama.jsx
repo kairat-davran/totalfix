@@ -3,9 +3,9 @@ import { Mail, PhoneCall } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const heroImages = [
-  "/images/hero-foundation.png",
-  "/images/hero-fence.png",
-  "/images/hero-basement.png",
+  `${import.meta.env.BASE_URL}images/hero-foundation.png`,
+  `${import.meta.env.BASE_URL}images/hero-fence.png`,
+  `${import.meta.env.BASE_URL}images/hero-basement.png`,
 ];
 
 const HeroPanorama = ({ onEstimateClick }) => {

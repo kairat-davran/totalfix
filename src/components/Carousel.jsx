@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 const carouselImages = [
-  "/images/works/carousel1.webp",
-  "/images/works/carousel2.webp",
-  "/images/works/carousel3.webp",
-  "/images/works/carousel4.webp",
-  "/images/works/carousel5.webp"
+  `${import.meta.env.BASE_URL}/images/works/carousel1.webp`,
+  `${import.meta.env.BASE_URL}/images/works/carousel2.webp`,
+  `${import.meta.env.BASE_URL}/images/works/carousel3.webp`,
+  `${import.meta.env.BASE_URL}/images/works/carousel4.webp`,
+  `${import.meta.env.BASE_URL}/images/works/carousel5.webp`
 ];
 
 export const Carousel = () => {
@@ -16,7 +16,7 @@ export const Carousel = () => {
 
   return (
     <>
-      <h2 className="text-3xl font-bold text-center mb-12">Our Works</h2>
+      <h2 className="text-3xl font-bold text-center my-8">Our Works</h2>
       <div className="relative w-full overflow-hidden rounded-xl shadow-lg">
         <img
           src={carouselImages[index]}
