@@ -3,15 +3,15 @@ import {
   Phone,
   Mail
 } from "lucide-react";
-import { FaFacebookF, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
+import { FaYoutube, FaInstagram, FaThumbtack } from 'react-icons/fa';
 
 const services = [
-  'Fence Installation',
-  'Wood Fence Repair & Replacement',
+  'Gate Installation',
+  'Fence Repair & Replacement',
   'Foundation Repair',
   'Crack Restoration',
   'Concrete Lifting',
-  'Crawlspace Encapsulation',
+  'French Drain System',
 ];
 
 export const Footer = () => {
@@ -23,8 +23,8 @@ export const Footer = () => {
           {/* Locations */}
           <div>
             <h3 className="text-lg font-bold mb-4">Locations</h3>
-            <p>📍 Seattle Office</p>
-            <p>1546 NW 56th Street Unit 526<br />Seattle, WA 98107</p>
+            <p>📍 Bothell Office</p>
+            <p>19128 112th Ave NE <br />Bothell, WA 98011</p>
           </div>
 
           {/* Services */}
@@ -36,9 +36,6 @@ export const Footer = () => {
                   {service}
                 </li>
               ))}
-              <li className="hover:text-red-400 transition cursor-pointer">Retaining Wall Repair</li>
-              <li className="hover:text-red-400 transition cursor-pointer">Waterproofing</li>
-              <li className="hover:text-red-400 transition cursor-pointer">Seismic Retrofitting</li>
             </ul>
           </div>
 
@@ -46,20 +43,27 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Business Hours</h3>
             <ul className="space-y-1">
-              <li>Mon–Fri: 9:00 AM – 5:00 PM</li>
-              <li>Saturday: 9:00 AM – 2:00 PM</li>
-              <li className="text-red-400">Sunday: Closed</li>
+              <li>Mon-Fri: 9:00 AM - 6:00 PM</li>
+              <li>Sat-Sun: 9:00 AM - 6:00 PM</li>
             </ul>
           </div>
 
           {/* Contact + Certifications */}
           <div>
             <h3 className="text-lg font-bold mb-4">Get in Touch</h3>
-            <p><Phone className="inline w-4 h-4 mr-1" /> (206) 752‑2991</p>
-            <p><Mail className="inline w-4 h-4 mr-1" /> service@totalfixcontractors.com</p>
-            <div className="mt-6">
+            <p className="mb-3"><Phone className="inline w-4 h-4 mr-1" />
+              <a href="tel:12066718938" className="hover:underline text-white-800">
+                (206) 671-8938
+              </a>
+            </p>
+            <p><Mail className="inline w-4 h-4 mr-1" />
+              <a href="mailto:info@totalfixwa.com" className="hover:underline text-white-800">
+                info@totalfixwa.com
+              </a>
+            </p>
+            <div className="flex flex-col items-center mt-6">
               <h4 className="font-semibold mb-2">Certifications</h4>
-              {/* <img src="/images/bbb-logo.png" alt="BBB Certified" className="w-24" /> */}
+              <img src={`${import.meta.env.BASE_URL}/images/thumbtack.png`} alt="Thumbtack Certified" className="w-12" />
             </div>
           </div>
         </div>
@@ -74,15 +78,15 @@ export const Footer = () => {
               <h4 className="font-semibold text-sm whitespace-nowrap">Follow Us</h4>
               <div className="flex gap-4 text-lg">
                 <a
-                  href="https://www.facebook.com/totalfixcontractors"
+                  href="https://www.instagram.com/totalfixwa/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-red-400"
                 >
-                  <FaFacebookF />
+                  <FaInstagram />
                 </a>
                 <a
-                  href="https://www.youtube.com/@totalfixcontractors"
+                  href="https://www.youtube.com/@TotalFixWA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-red-400"
@@ -90,12 +94,12 @@ export const Footer = () => {
                   <FaYoutube />
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/totalfixcontractors"
+                  href="https://www.thumbtack.com/wa/bellevue/handyman/totalfix-contractors-llc/service/542147258598039559?utm_medium=web&utm_source=txt&surface=sp"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-red-400"
                 >
-                  <FaLinkedinIn />
+                  <img src={`${import.meta.env.BASE_URL}/images/thumbtackLogo.png`} alt="Thumbtack Logo" className="w-3" />
                 </a>
               </div>
             </div>

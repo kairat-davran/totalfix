@@ -14,25 +14,34 @@ export const Contact = () => {
         <div className="space-y-4 text-gray-800 text-base">
           <div className="flex items-center gap-3">
             <PhoneCall className="w-5 h-5 text-red-600" />
-            <span>(206) 752‑2991</span>
+            <a href="tel:12066718938" className="hover:underline text-gray-800">
+              (206) 671-8938
+            </a>
           </div>
           <div className="flex items-center gap-3">
             <Mail className="w-5 h-5 text-red-600" />
-            <span>service@totalfixcontractors.com</span>
+            <a href="mailto:info@totalfixwa.com" className="hover:underline text-gray-800">
+              info@totalfixwa.com
+            </a>
           </div>
           <div className="flex items-start gap-3">
             <span className="text-xl">📍</span>
-            <span>
-              1546 NW 56th Street Unit 526<br />
-              Seattle, WA 98107
-            </span>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=19128+112th+Ave+NE,+Bothell,+WA+98011"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline text-gray-800"
+            >
+              19128 112th Ave NE<br />
+              Bothell, WA 98011
+            </a>
           </div>
         </div>
       </div>
 
       {/* Right: Contact Form */}
       <form
-        action="https://formspree.io/f/mjkrevoy"
+        action="https://formspree.io/f/xldnwgbv"
         method="POST"
         className="bg-gray-50 p-6 rounded-lg shadow-lg space-y-5"
       >
@@ -72,7 +81,7 @@ export const Contact = () => {
             type="tel"
             id="phone"
             name="phone"
-            placeholder="(206) 555‑0123"
+            placeholder="(206) 555-0123"
             className="w-full px-4 py-2 border border-gray-300 bg-gray-100 rounded-md focus:ring-red-500 focus:border-red-500"
           />
         </div>

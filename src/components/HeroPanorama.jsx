@@ -50,10 +50,10 @@ const HeroPanorama = ({ onEstimateClick }) => {
       {/* Static Overlay Content (No Motion) */}
       <div className="relative z-10 max-w-3xl px-4 text-center">
         <h2 className="text-4xl sm:text-5xl font-bold mb-4 drop-shadow-lg">
-          Affordable, Licensed, Trusted
+          Insured, Bonded, Licensed
         </h2>
         <p className="text-lg sm:text-xl mb-8 drop-shadow">
-          Expert fence & foundation solutions at below‑market rates
+          Expert Fence, Foundation, & Concrete solutions at below‑market rates
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
@@ -63,7 +63,7 @@ const HeroPanorama = ({ onEstimateClick }) => {
             <Mail className="w-5 h-5" /> Request Estimate
           </button>
           <a
-            href="tel:+12067522991"
+            href="tel:+12066718938"
             className="bg-green-600 hover:bg-green-700 px-6 py-3 rounded text-white font-semibold shadow-lg inline-flex items-center gap-2"
           >
             <PhoneCall className="w-5 h-5" /> Call Now

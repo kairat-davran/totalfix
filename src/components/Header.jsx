@@ -8,7 +8,7 @@ export const Header = () => {
     <header className="bg-black text-white py-4 shadow sticky top-0 z-30">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         {/* Logo & Brand */}
-        <div className="flex items-center gap-3">
+        <a href="#" className="flex items-center gap-3 hover:opacity-80 transition">
           <img
             src={`${import.meta.env.BASE_URL}/logo_light.png`}
             alt="TotalFix Logo"
@@ -17,7 +17,7 @@ export const Header = () => {
           <h1 className="text-2xl font-bold tracking-tight whitespace-nowrap">
             TotalFix <span className="hidden lg:inline">Contractors LLC</span>
           </h1>
-        </div>
+        </a>
 
         {/* Desktop Nav */}
         <nav className="hidden sm:flex gap-10 text-[15px] text-white tracking-wide">

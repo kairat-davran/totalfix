@@ -26,7 +26,7 @@ export const EstimateModal = ({ open, onClose }) => {
               Request Your Free Estimate
             </h3>
             <form
-              action="https://formspree.io/f/meoklqgv"
+              action="https://formspree.io/f/mldnwgjy"
               method="POST"
               encType="multipart/form-data"
               className="space-y-4"
@@ -90,7 +90,7 @@ export const EstimateModal = ({ open, onClose }) => {
                   placeholder="Tell us about your fence or foundation project..."
                 />
               </div>
-              <div>
+              {/* <div>
                 <label className="block text-sm font-medium mb-1" htmlFor="image">
                   Upload Image (optional)
                 </label>
@@ -101,7 +101,7 @@ export const EstimateModal = ({ open, onClose }) => {
                   accept="image/*"
                   className="w-full border rounded-lg px-3 py-2 bg-gray-100"
                 />
-              </div>
+              </div> */}
               <button
                 type="submit"
                 className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 rounded-lg shadow-lg"
