@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 const carouselImages = [
-  `${import.meta.env.BASE_URL}/images/works/carousel1.webp`,
-  `${import.meta.env.BASE_URL}/images/works/carousel2.webp`,
-  `${import.meta.env.BASE_URL}/images/works/carousel3.webp`,
-  `${import.meta.env.BASE_URL}/images/works/carousel4.webp`,
-  `${import.meta.env.BASE_URL}/images/works/carousel5.webp`
+  `${import.meta.env.BASE_URL}images/works/carousel1.webp`,
+  `${import.meta.env.BASE_URL}images/works/carousel2.webp`,
+  `${import.meta.env.BASE_URL}images/works/carousel3.webp`,
+  `${import.meta.env.BASE_URL}images/works/carousel4.webp`,
+  `${import.meta.env.BASE_URL}images/works/carousel5.webp`
 ];
 
 export const Carousel = () => {

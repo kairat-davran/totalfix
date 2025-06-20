@@ -63,7 +63,7 @@ export const Footer = () => {
             </p>
             <div className="flex flex-col items-center mt-6">
               <h4 className="font-semibold mb-2">Certifications</h4>
-              <img src={`${import.meta.env.BASE_URL}/images/thumbtack.png`} alt="Thumbtack Certified" className="w-12" />
+              <img src={`${import.meta.env.BASE_URL}images/thumbtack.png`} alt="Thumbtack Certified" className="w-12" />
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ export const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-red-400"
                 >
-                  <img src={`${import.meta.env.BASE_URL}/images/thumbtackLogo.png`} alt="Thumbtack Logo" className="w-3" />
+                  <img src={`${import.meta.env.BASE_URL}images/thumbtackLogo.png`} alt="Thumbtack Logo" className="w-3" />
                 </a>
               </div>
             </div>

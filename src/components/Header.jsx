@@ -10,7 +10,7 @@ export const Header = () => {
         {/* Logo & Brand */}
         <a href="#" className="flex items-center gap-3 hover:opacity-80 transition">
           <img
-            src={`${import.meta.env.BASE_URL}/logo_light.png`}
+            src={`${import.meta.env.BASE_URL}logo_light.png`}
             alt="TotalFix Logo"
             className="w-10 h-10 rounded-full object-contain border border-white"
           />
